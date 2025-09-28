@@ -11,11 +11,11 @@ function App() {
   return (
     <div className="h-screen w-screen bg-dark flex flex-col justify-between items-center">
       <header className="flex flex-col items-center">
-        <img src={logoMedium} alt="Logo" className="h-60" />
+        <img src={logoMedium} alt="Logo" className="h-56 max-sm:h-36" />
       </header>
       <section>
         <Countdown />
-        <section className="bg-gradient-to-br from-[#D9B37E]/10 to-[#D9B37E]/5 border-2 border-[#D9B37E]/30 rounded-2xl p-6 md:p-8 transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl hover:shadow-[#D9B37E]/30 hover:border-[#D9B37E] cursor-default text-center">
+        <section className="bg-gradient-to-br from-[#D9B37E]/10 to-[#D9B37E]/5 border-2 border-[#D9B37E]/30 rounded-2xl p-5 md:p-8 transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl hover:shadow-[#D9B37E]/30 hover:border-[#D9B37E] cursor-default text-center">
           <div className="flex gap-5 justify-center">
             <div className="flex items-center gap-2">
               <IoMdCalendar className="text-primary" />
@@ -37,8 +37,8 @@ function App() {
           "නෙක විද දස්කම් වලින් සුපෝෂිත කෝඩුකාර විද්‍යාර්ථයින්ගේ පලමු අඩහැරය"
         </h2>
       </section>
-      <footer>
-        <h1 className="text-light text-center mb-4">
+      <footer className="max-sm:mx-2">
+        <h1 className="text-light text-center mb-10">
           <span className="font-bold text-primary">
             SAMPRAAPTHI 25 • සම්ප්‍රාප්ති 25
           </span>

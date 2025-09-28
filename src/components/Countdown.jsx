@@ -44,9 +44,9 @@ const Countdown = () => {
       {timeUnits.map((unit, index) => (
         <div
           key={index}
-          className="bg-gradient-to-br from-[#D9B37E]/10 to-[#D9B37E]/5 border-2 border-[#D9B37E]/30 rounded-2xl p-6 md:p-8 transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl hover:shadow-[#D9B37E]/30 hover:border-[#D9B37E] cursor-default text-center"
+          className="bg-gradient-to-br from-[#D9B37E]/10 to-[#D9B37E]/5 border-2 border-[#D9B37E]/30 rounded-2xl p-5 md:p-8 transition-all duration-300 hover:transform hover:-translate-y-2 hover:shadow-xl hover:shadow-[#D9B37E]/30 hover:border-[#D9B37E] cursor-default text-center"
         >
-          <div className="text-5xl md:text-6xl font-bold text-[#D9B37E] mb-2 font-mono drop-shadow-md">
+          <div className="text-4xl md:text-6xl font-bold text-[#D9B37E] mb-2 font-mono drop-shadow-md">
             {String(unit.value).padStart(2, "0")}
           </div>
           <div className="text-[#FBFBFB] text-sm md:text-base font-medium uppercase tracking-widest">
